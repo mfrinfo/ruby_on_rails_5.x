@@ -1,5 +1,10 @@
 {
   "name": "time_to_answer",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mfrinfo/ruby_on_rails_5.x.git",
+  "author": "MFRinfo",
+  "license": "MIT"
 }
