@@ -17,7 +17,7 @@ Rails.application.config.assets.precompile += %w( users_backoffice.js users_back
 #/lib/asserts
 Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css 
                                                   gentelella.js gentelella.css
-                                                  img.jpg )
+                                                  img.jpg user.png )
 
 #/vendor/assets
 Rails.application.config.assets.precompile += %w( jquery-2.2.3/dist/jquery.js 
