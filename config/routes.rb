@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   
   namespace :admins_backoffice do
     get 'welcome/index' #DashBoard
-    resources :admins, only:[:index, :edit]  #Administradores
+    resources :admins, except: [:delete]  #Administradores
   end
 
   namespace :site do
