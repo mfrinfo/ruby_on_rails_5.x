@@ -7,4 +7,4 @@
 //= require jquery.easing/jquery.easing
 //= require sb-admin-2
 //= require google-fonts/index
-
+//= require bootstrap-growl-ifightcrime/jquery.bootstrap-growl.js
