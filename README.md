@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+http://localhost:3005/admins_backoffice/info/routes
+http://localhost:3005/admins_backoffice/admins
+http://localhost:3005/users_backoffice/welcome/index
+
+Comandos Rails:
+rails g model subject description:string
+rails g model answer description:text question:references correct:boolean
+
+rails db:migrate 
