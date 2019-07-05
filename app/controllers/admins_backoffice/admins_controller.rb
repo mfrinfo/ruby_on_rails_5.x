@@ -41,6 +41,9 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
   end
 
   def verify_password
+    
+    binding.pry
+    
     #removendo o password e password_confirmation quando estiver vazio
     if params[:admin][:password].blank? && params[:admin][:password_confirmation].blank?
       params[:admin].extract!(:password, :password_confirmation)
